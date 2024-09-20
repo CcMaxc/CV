@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Meu Portfoli</title>
-    <link rel="stylesheet" href="/Llenguatge_Marques/HTML/CSS/style.css">
+    <title>Biel Nadal Garcia</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" href="/Imatges/Cara_quadrat.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="barra-superior">
+        <div class="barra-izquierda">
+            <img src="/Imatges/Cara_quadrat.jpg" alt="Mi Imagen" width="50">
+            <span>Biel Nadal Garcia</span>
+            <span class="shortcuts">
+                <a href="#sobreMi">Sobre Mi</a> | 
+                <a href="#projectes">Projectes</a>
+            </span>
+        </div>
+        <div class="barra-derecha">
+            <span>Para contactar:</span>
+            <a href="mailto:bielnadalgarcia@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+34643292282"><i class="fas fa-phone"></i></a>
+            <a href="https://github.com/CcMaxc" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#sobreMi">Sobre Mi</a></li>
-                <li><a href="#projectes">Projectes</a></li>
-                <li><a href="#contacte">Contacte</a></li>
-            </ul>
-        </nav>
         <div class="header-content">
             <h1>Hola, soc el Biel</h1>
             <p>Desenvolupador d'aplicacions multiplataforma</p>
@@ -23,8 +35,10 @@
 
     <section id="sobreMi" class="section">
         <h2>Sobre mi</h2>
-        <img class="img-perf" src="/Llenguatge_Marques/Imatges/Ghost.jpg" alt="Hollow Knight" width="300px">
-        <p>Hollow Knight.</p>
+        <div class="sobreMi-contenido">
+            <img class="img-perf" src="/Imatges/Cara_quadrat.jpg" alt="La meva imatge" width="300px">
+            <p>Hola, soy Biel Nadal Garcia. Soy un desarrollador de aplicaciones multiplataforma. Disfruto trabajando en proyectos de software que combinan creatividad y funcionalidad. Me apasiona crear experiencias que impacten de manera positiva.</p>
+        </div>
     </section>
 
     <section id="projectes" class="section">
@@ -33,19 +47,10 @@
             <div class="project">
                 <h3>Assalt a l'Abisme</h3>
                 <p>Assalt a l'Abisme es el meu primer videojoc creat amb unity.</p>
+                <a href="https://github.com/CcMaxc/Assalt-a-l-Abisme">Link a repository de Github</a>
+            </div>
         </div>
     </section>
-
-    <section id="contacte" class="section">
-        <h2>Contacte</h2>
-        <p>Hem pots contactar aqui:</p>
-        <ul>
-            <li><a href="bielnadalgarcia@gmail.com">Email</a></li>
-            <li><a href="+34 643292282">Telefon</a></li>
-            <br></br>
-        </ul>
-    </section>
-
     <footer>
         <p>&copy; 2024 Biel Nadal.</p>
     </footer>

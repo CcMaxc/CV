@@ -7,8 +7,9 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: white; /* Letras blancas */
     padding-top: 60px; /* Ajustar según la altura de la barra */
+    background-color: #001f3f; /* Fondo azul marino */
 }
 
 .barra-superior {
@@ -17,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     height: 60px; /* Altura de la barra */
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9); /* Fondo semitransparente */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -54,7 +55,7 @@ body {
 }
 
 .shortcuts a:hover {
-    color: #4CAF50; /* Cambia el color al hacer hover */
+    color: #FFA500; /* Cambia el color al hacer hover */
 }
 
 .barra-derecha {
@@ -75,11 +76,11 @@ body {
 }
 
 .barra-derecha a:hover {
-    color: #4CAF50;
+    color: #FFA500;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: rgba(255, 165, 0, 0.8); /* Fondo semitransparente */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -90,10 +91,45 @@ header {
     text-align: center;
 }
 
+.presentacion {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Imatges/conducir-en-carreteras-de-montaña-p.jpg'); /* Cambia esta ruta */
+    background-size: cover; /* Ajustar imagen de fondo */
+    color: white;
+    text-align: center;
+}
+
+.presentacion h1 {
+    font-size: 3rem; /* Tamaño del texto */
+}
+
+.presentacion p {
+    font-size: 1.5rem; /* Tamaño del subtítulo */
+    margin-top: 10px;
+}
+
+#sobreMi {
+    background-image: url('/path/to/your/sobre-mi-background.jpg'); /* Cambia esta ruta */
+    background-size: cover;
+    color: white;
+}
+
+#projectes {
+    background-image: url('/path/to/your/projectes-background.jpg'); /* Cambia esta ruta */
+    background-size: cover;
+    color: white;
+}
+
 h2 {
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #4CAF50;
+    color: white; /* Color de texto blanco */
 }
 
 .projects {
@@ -103,7 +139,7 @@ h2 {
 }
 
 .project {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco semitransparente */
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
@@ -111,12 +147,21 @@ h2 {
 }
 
 .project h3 {
-    color: #333;
+    color: white; /* Letras blancas */
+}
+
+.project a {
+    color: white; /* Color de enlace blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.project a:hover {
+    color: #FFA500; /* Color al pasar el mouse (naranja) */
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white; /* Letras blancas */
     padding: 10px 0;
     text-align: center;
     width: 100%;

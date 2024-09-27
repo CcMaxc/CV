@@ -99,7 +99,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/Imatges/conducir-en-carreteras-de-montaña-p.jpg'); /* Cambia esta ruta */
+    background-image: url('Imatges/conducir-en-carreteras-de-montaña-p.jpg'); /* Cambia esta ruta */
     background-size: cover; /* Ajustar imagen de fondo */
     color: white;
     text-align: center;
